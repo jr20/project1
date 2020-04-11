@@ -1,6 +1,6 @@
 CREATE TABLE books (
-    isbn INTEGER NOT NULL,
+    isbn VARCHAR PRIMARY KEY,
     title VARCHAR NOT NULL,
     author VARCHAR NOT NULL,
-    year INTEGER NOT NULL
+    years INTEGER NOT NULL
 );
